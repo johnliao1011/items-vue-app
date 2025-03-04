@@ -6,6 +6,7 @@ node_modules
 # local env files
 .env.local
 .env.*.local
+#.env 避免commit.env的時候，記得在這邊加一下(防止有機密的資訊被commit到雲端)
 
 # Log files
 npm-debug.log*
